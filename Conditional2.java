@@ -15,6 +15,7 @@ public class Conditional2{
             
              if( startAge >= 18){
                 foo = false;
+                System.out.println("Congrats you're old!");
                 }                      
         }       
     }
