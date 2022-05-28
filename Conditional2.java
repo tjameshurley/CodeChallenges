@@ -20,10 +20,15 @@ public class Conditional2{
         }       
     }
 
+    public int getAgeDays(int ageGiven){
+        return ageGiven * 365;
+    }
+
 
     public static void main(String[] args){
         Conditional2 ageTest1 = new Conditional2();
         ageTest1.getAge();
+        System.out.println(ageTest1.getAgeDays(4));
         
 
     }
