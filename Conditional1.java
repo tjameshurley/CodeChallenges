@@ -32,11 +32,21 @@ public class Conditional1{
         }
     }
 
+    public void printBox(int givenBoxSize){
+        for(int i = 0; i < givenBoxSize; i++){
+            for(int j = 0; j < givenBoxSize; j++){
+            System.out.print("*");    
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args){
 
         Conditional1 test1 = new Conditional1();
-        test1.printDots(5);
-        test1.printPyramid(5);
+        //test1.printDots(5);
+        //test1.printPyramid(5);
+        test1.printBox(5);
 
     }
 }
